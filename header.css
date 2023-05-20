@@ -1,0 +1,81 @@
+.barre1{
+    background : linear-gradient( to left , rgb(55, 55, 177) , rgb(216, 216, 228) 80%); 
+}
+.barre1 ul {
+    float: right;
+    padding-right: 30px;
+    
+
+}
+.barre1 ul li {
+    display: flex;
+
+
+}
+.utilisateur{
+    background-color: rgb(97, 97, 192);
+ 
+    color: white;
+    padding: 12px;
+    width: 200px;
+
+    border: 0px;
+    cursor: pointer;
+
+
+}
+.connexion{
+    background-color: rgb(117, 117, 201);
+    color: white;
+    padding: 12px;
+    width: 200px;
+    height: 30;
+    border: 0ch;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+ 
+
+}
+.connexion:hover{
+    text-decoration: none;
+}
+.deconnexion{
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    background-color: rgb(117, 117, 201);
+   
+    color: white;
+    padding: 12px;
+    width: 200px;
+    height: 30;
+    border: 0ch;
+    cursor: pointer;
+}
+
+.deconnexion:hover{
+    text-decoration: none;
+}
+.barre{
+    margin:auto;
+    width: max-content;
+}
+
+.barre ul li{
+    display: inline-block;
+ }
+.barre ul li a {
+padding: 12px;
+background-color: rgb(154, 175, 231);
+width: 300px;
+height: 200px;
+color:rgb(55, 55, 177);
+font-size:larger;
+font-weight:bold;
+cursor: pointer;
+text-decoration: none;
+
+}

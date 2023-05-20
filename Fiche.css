@@ -1,0 +1,46 @@
+.input {
+    cursor: pointer;
+     width: 40%;
+     padding: 10px;
+     margin:8px;
+     float: left;
+     border-radius: 8px;
+     border: 1px solid rgb(230, 229, 229);
+    
+     color: rgb(55, 55, 177);
+     background-color: rgba(231, 234, 255, 0.767);
+     font-size: larger;
+
+ }
+ .submitblock{
+     margin-left:25% ;
+     margin-bottom: 5%;
+     width:max-content;
+ }
+ 
+ .submit{
+    margin-left:50px;
+    width:300px;
+   
+    padding: 10px 50px;
+    background-color:rgb(55, 55, 177);
+    color:white;
+    border:0ch;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+ }
+ textarea{
+    cursor: pointer;
+    padding: 10px;
+    margin:8px; 
+     border-radius: 8px;
+     border: 1px solid rgb(230, 229, 229);
+    
+     color: rgb(55, 55, 177);
+     background-color: rgba(231, 234, 255, 0.767);
+     font-size: larger;
+ }
+ .fiche{
+     opacity: 0.15;
+ }

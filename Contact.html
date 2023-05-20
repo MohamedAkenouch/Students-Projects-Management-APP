@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Contact</title>
+    <style>
+        .input {
+            cursor: pointer;
+             width: 60%;
+             padding: 10px;
+             margin:8px;
+             border-radius: 8px;
+             border: 1px solid rgb(230, 229, 229);
+            margin-bottom: 4%;
+             color: rgb(55, 55, 177);
+             background-color: rgba(231, 234, 255, 0.767);
+             font-size: larger;
+
+         }
+         .submitblock{
+             margin: auto;
+             width:max-content;
+             float: right;
+             margin-right: 20%;
+         }
+         
+         .submit{
+            width:100%;
+            text-align: center;
+            padding: 10px 50px;
+            background-color:rgb(55, 55, 177);
+            color:white;
+            border:0ch;
+            border-radius: 8px;
+            font-size: large;
+            cursor: pointer;
+         }
+         textarea{
+            cursor: pointer;
+             width: 80%;
+             padding: 10px;
+             margin: auto;
+             margin-top: 8px;
+             margin-bottom: 8px;
+           
+             
+             border-radius: 8px;
+             border: 1px solid rgb(230, 229, 229);
+            
+             color: rgb(55, 55, 177);
+             background-color: rgba(231, 234, 255, 0.767);
+             font-size: larger;
+         }
+</style>
+</head>
+<body>
+    <div class="row">
+        <div class="col" style="margin-left: 3%;margin-top: 6%;margin-right: 0%;">
+            <h2 style="color:rgb(10,41,102);"><strong> Votre espace pour commencer votre projet</strong></h2>
+            <img width="100%" height="auto" style="margin-top: 10%;" src="inpt.png" alt="">
+
+        </div>
+        <div class="col">
+            <a href="#" style="margin-top:1%;float: right;margin-right: 5%;padding: 12px; background-color: rgb(154, 175, 231);color:rgb(55, 55, 177);font-size:larger;font-weight:bold;cursor: pointer;text-decoration: none;">ACCEUIL</a>
+            <h1 style="margin-top:3%;color:rgb(10,41,102);margin-bottom: 5%;">Contactez-Nous</h1>
+            <form>
+                <input   class="input" type="text" placeholder="Nom complet">
+                <br>
+                <input  class="input" type="email" placeholder="Email">
+                <br>
+                <input  class="input" type="text" placeholder="Numéro(optionnel)">
+                <br>
+                <textarea   placeholder="Contenue" rows="8"></textarea>
+                <br>
+                <div class="submitblock">
+                    <input class="submit" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
